@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#07100e" />
+  <meta name="description" content="Kevin — independent AI systems builder creating local-first agents, auditable workflows, spatial tools, and market intelligence products." />
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Kevin — AI systems, agent infrastructure, and practical automation" />
+  <meta property="og:description" content="A focused portfolio of local-first AI systems, auditable agent frameworks, spatial computing tools, and research products." />
+  <meta property="og:url" content="https://edgeagent.github.io/quantum-signal-engine-pages/portfolio.html" />
+  <meta property="og:image" content="https://edgeagent.github.io/quantum-signal-engine-pages/assets/comparable-growth.png" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Kevin — AI systems, agent infrastructure, and practical automation" />
+  <meta name="twitter:description" content="Local-first AI systems, auditable agent frameworks, spatial computing tools, and research products." />
+  <title>Kevin — AI systems, agent infrastructure, and practical automation</title>
+  <style>
+    :root { --bg:#07100e; --panel:#0d1916; --panel2:#10221d; --line:rgba(198,255,221,.14); --text:#effaf3; --muted:#9bb4a7; --accent:#a7f3c5; --accent2:#6ee7b7; --gold:#f3c77b; --radius:24px; --shadow:0 28px 90px rgba(0,0,0,.3); }
+    * { box-sizing:border-box; }
+    html { scroll-behavior:smooth; }
+    body { margin:0; color:var(--text); background:radial-gradient(circle at 88% -8%,rgba(64,185,130,.18),transparent 32rem),radial-gradient(circle at 10% 6%,rgba(167,243,197,.08),transparent 28rem),var(--bg); font-family:Inter,ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif; line-height:1.55; }
+    a { color:inherit; text-decoration:none; }
+    .wrap { width:min(1140px,calc(100% - 40px)); margin:auto; }
+    nav { height:84px; display:flex; justify-content:space-between; align-items:center; border-bottom:1px solid var(--line); }
+    .wordmark { font-size:18px; font-weight:900; letter-spacing:-.04em; }
+    .wordmark small { color:var(--muted); display:block; text-transform:uppercase; letter-spacing:.18em; font-size:9px; margin-top:2px; }
+    .links { display:flex; gap:24px; color:var(--muted); font-size:13px; }
+    .links a:hover { color:var(--accent); }
+    .button { display:inline-flex; align-items:center; justify-content:center; border:1px solid rgba(167,243,197,.35); border-radius:999px; padding:12px 18px; background:var(--accent); color:#07100e; font-size:13px; font-weight:850; transition:transform .18s ease,box-shadow .18s ease; }
+    .button:hover { transform:translateY(-2px); box-shadow:0 14px 34px rgba(110,231,183,.2); }
+    .button.ghost { background:transparent; color:var(--accent); box-shadow:none; }
+    .eyebrow { color:var(--accent); font-size:11px; font-weight:850; letter-spacing:.2em; text-transform:uppercase; }
+    .hero { padding:94px 0 84px; display:grid; grid-template-columns:1.15fr .85fr; gap:70px; align-items:end; }
+    h1 { font-size:clamp(48px,7vw,86px); line-height:.96; letter-spacing:-.08em; margin:18px 0 24px; max-width:790px; }
+    .hero p { color:var(--muted); max-width:660px; font-size:18px; }
+    .actions { display:flex; flex-wrap:wrap; gap:11px; margin-top:30px; }
+    .hero-card { border:1px solid var(--line); background:linear-gradient(145deg,rgba(16,34,29,.94),rgba(8,17,14,.9)); border-radius:var(--radius); padding:26px; box-shadow:var(--shadow); }
+    .hero-card .label { color:var(--muted); font-size:10px; letter-spacing:.15em; text-transform:uppercase; }
+    .hero-card h2 { font-size:32px; letter-spacing:-.06em; line-height:1.03; margin:48px 0 12px; }
+    .hero-card p { font-size:14px; margin:0; }
+    .signal { display:flex; gap:8px; margin-top:22px; flex-wrap:wrap; }
+    .signal span { color:var(--accent); background:rgba(167,243,197,.07); border:1px solid var(--line); padding:7px 10px; border-radius:999px; font-size:11px; }
+    section { padding:76px 0; }
+    .section-head { display:flex; justify-content:space-between; gap:24px; align-items:end; margin-bottom:28px; }
+    h3 { font-size:clamp(31px,4vw,52px); line-height:1; letter-spacing:-.07em; margin:10px 0 0; }
+    .section-head p { max-width:430px; color:var(--muted); margin:0; }
+    .projects { display:grid; grid-template-columns:repeat(2,1fr); gap:16px; }
+    .project { display:flex; flex-direction:column; min-height:260px; padding:25px; border:1px solid var(--line); background:rgba(13,25,22,.78); border-radius:var(--radius); transition:transform .18s ease,border-color .18s ease; }
+    .project:hover { transform:translateY(-4px); border-color:rgba(167,243,197,.4); }
+    .project-top { display:flex; justify-content:space-between; gap:12px; align-items:start; }
+    .project-number { color:var(--accent); font-size:12px; font-weight:900; }
+    .project-tag { color:var(--muted); font-size:10px; text-transform:uppercase; letter-spacing:.12em; }
+    .project h4 { font-size:25px; letter-spacing:-.05em; margin:36px 0 8px; }
+    .project p { color:var(--muted); margin:0; font-size:14px; }
+    .project-link { margin-top:auto; padding-top:24px; color:var(--accent); font-weight:800; font-size:13px; }
+    .principles { display:grid; grid-template-columns:repeat(4,1fr); gap:12px; }
+    .principle { padding:20px; border-top:1px solid rgba(167,243,197,.32); background:rgba(167,243,197,.035); }
+    .principle b { display:block; font-size:15px; margin-bottom:8px; }
+    .principle span { color:var(--muted); display:block; font-size:13px; }
+    .proof { display:grid; grid-template-columns:1fr 1fr; gap:18px; }
+    .proof-card { border:1px solid var(--line); background:linear-gradient(145deg,rgba(16,34,29,.86),rgba(8,17,14,.82)); border-radius:var(--radius); padding:28px; }
+    .proof-card h4 { font-size:23px; letter-spacing:-.04em; margin:0 0 8px; }
+    .proof-card p { color:var(--muted); margin:0; font-size:14px; }
+    .share { border:1px solid rgba(167,243,197,.3); background:linear-gradient(100deg,rgba(110,231,183,.12),rgba(13,25,22,.82)); border-radius:var(--radius); padding:30px; display:flex; justify-content:space-between; gap:24px; align-items:center; }
+    .share h3 { font-size:32px; }
+    .share p { color:var(--muted); margin:10px 0 0; max-width:600px; }
+    .share-actions { display:flex; flex-wrap:wrap; gap:10px; }
+    footer { border-top:1px solid var(--line); padding:28px 0 42px; color:var(--muted); display:flex; justify-content:space-between; gap:20px; font-size:13px; }
+    @media (max-width:850px) { .hero,.proof { grid-template-columns:1fr; gap:34px; }.projects { grid-template-columns:1fr; }.principles { grid-template-columns:repeat(2,1fr); }.section-head { display:block; }.section-head p { margin-top:14px; }.links { display:none; }.share { display:block; }.share-actions { margin-top:22px; }.wrap { width:min(100% - 28px,1140px); } }
+    @media (max-width:480px) { .principles { grid-template-columns:1fr; } }
+  </style>
+</head>
+<body>
+  <header class="wrap"><nav><a class="wordmark" href="./">Kevin<small>Independent AI systems builder</small></a><div class="links"><a href="#work">Selected work</a><a href="#approach">Approach</a><a href="#contact">Contact</a><a href="https://github.com/EdgeAgent">GitHub ↗</a></div></nav></header>
+  <main>
+    <section class="wrap hero"><div><div class="eyebrow">Portfolio / 2026</div><h1>Building useful intelligence for people who need control.</h1><p>I design local-first AI systems, auditable agent infrastructure, spatial tools, and research products that make powerful software easier to inspect, operate, and trust.</p><div class="actions"><a class="button" href="#work">View selected work</a><a class="button ghost" href="https://github.com/EdgeAgent">Open GitHub profile ↗</a></div></div><aside class="hero-card"><div class="label">What I care about</div><h2>Practical systems.<br /><span style="color:var(--accent)">Human boundaries.</span></h2><p>The goal is not to make automation look autonomous. The goal is to make its state, limits, and next action understandable to the person responsible for the outcome.</p><div class="signal"><span>Local-first</span><span>Auditable</span><span>Portable</span><span>Paper-safe</span></div></aside></section>
+    <section class="wrap" id="work"><div class="section-head"><div><div class="eyebrow">Selected work</div><h3>A focused body of work.</h3></div><p>These projects represent the strongest through-line in the portfolio: evidence, oversight, reliable agent behavior, and interfaces that turn complex systems into visible workflows.</p></div><div class="projects"><article class="project"><div class="project-top"><span class="project-number">01</span><span class="project-tag">Research product</span></div><h4>QuantumSignal Engine</h4><p>Local-first crypto market intelligence and paper-trading research with real-time public feeds, explainable patterns, walk-forward backtesting, and a hard execution gate.</p><a class="project-link" href="https://edgeagent.github.io/quantum-signal-engine-pages/">Open public showcase ↗</a></article><article class="project"><div class="project-top"><span class="project-number">02</span><span class="project-tag">Local AI</span></div><h4>ModelDock USB</h4><p>A portable local LLM command center for inspectable business workflows, approval gates, audit logs, recovery controls, and operator-owned execution.</p><a class="project-link" href="https://github.com/EdgeAgent/modeldock-usb">View project ↗</a></article><article class="project"><div class="project-top"><span class="project-number">03</span><span class="project-tag">Agent safety</span></div><h4>TraceForge</h4><p>An auditable AI framework for structured inference, confidence thresholds, human review, and traceable decisions in high-accountability environments.</p><a class="project-link" href="https://github.com/EdgeAgent/traceforge">View framework ↗</a></article><article class="project"><div class="project-top"><span class="project-number">04</span><span class="project-tag">Evidence systems</span></div><h4>DSER Agent Framework</h4><p>Evidence reconciliation for provenance-aware agent memory and action, designed to reduce unsupported leaps between retrieved context and operational decisions.</p><a class="project-link" href="https://github.com/EdgeAgent/dser-agent-framework">View framework ↗</a></article><article class="project"><div class="project-top"><span class="project-number">05</span><span class="project-tag">Agent protocol</span></div><h4>RELAY</h4><p>A compact, versioned message protocol for predictable communication between specialist agents, with readable translation and safe escalation paths.</p><a class="project-link" href="https://github.com/EdgeAgent/relay-protocol">View protocol ↗</a></article><article class="project"><div class="project-top"><span class="project-number">06</span><span class="project-tag">Spatial studio</span></div><h4>Visionary3D Studio</h4><p>Conversational AI-driven 3D asset and animation generation workflows that bring language, spatial tooling, and creative iteration into one system.</p><a class="project-link" href="https://github.com/EdgeAgent/visionary3d-studio">View studio ↗</a></article></div></section>
+    <section class="wrap" id="approach"><div class="section-head"><div><div class="eyebrow">How I work</div><h3>Four principles<br />behind the builds.</h3></div><p>A strong demo is useful. A system that remains understandable when something goes wrong is better.</p></div><div class="principles"><div class="principle"><b>Local when possible</b><span>Keep sensitive workflows close to the operator and make cloud use explicit.</span></div><div class="principle"><b>Human at the boundary</b><span>Automation can prepare and coordinate; people decide when consequences matter.</span></div><div class="principle"><b>Inspectable by default</b><span>Every meaningful action should have a status, a reason, and an audit trail.</span></div><div class="principle"><b>Honest about readiness</b><span>Host validation, recovery, and security matter more than a polished claim.</span></div></div></section>
+    <section class="wrap"><div class="proof"><div class="proof-card"><div class="eyebrow">The through-line</div><h4>From model output to operating context.</h4><p>The portfolio focuses on the layer around the model: state, permissions, evidence, interfaces, approvals, and recovery. That is where experimental intelligence becomes a tool someone can responsibly use.</p></div><div class="proof-card"><div class="eyebrow">The invitation</div><h4>Build systems people can question.</h4><p>If you are working on local AI, agent infrastructure, workflow reliability, spatial interfaces, or safe research tooling, I am interested in practical collaborations that leave operators with more clarity—not less.</p></div></div></section>
+    <section class="wrap" id="contact"><div class="share"><div><div class="eyebrow">Share the work</div><h3>Send someone here first.</h3><p>This page is designed as a professional introduction before someone explores the repositories or the QuantumSignal dashboard.</p></div><div class="share-actions"><a class="button" target="_blank" rel="noopener" href="https://www.linkedin.com/sharing/share-offsite/?url=https%3A%2F%2Fedgeagent.github.io%2Fquantum-signal-engine-pages%2Fportfolio.html">Share on LinkedIn ↗</a><a class="button ghost" target="_blank" rel="noopener" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fedgeagent.github.io%2Fquantum-signal-engine-pages%2Fportfolio.html">Share on Facebook ↗</a></div></div></section>
+  </main>
+  <footer class="wrap"><span>Kevin · Independent AI systems builder</span><span><a href="https://github.com/EdgeAgent">GitHub</a> · <a href="https://edgeagent.github.io/quantum-signal-engine-pages/">QuantumSignal showcase</a></span></footer>
+</body>
+</html>
